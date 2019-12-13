@@ -29,3 +29,15 @@
 	damage = 40
 	armour_penetration = 0
 
+/obj/item/ammo_casing/a556n
+	name = "5.56 bullet casing"
+	desc = "A 7.62 bullet casing."
+	icon_state = "762-casing"
+	caliber = "a762"
+	projectile_type = /obj/item/projectile/bullet/a556n
+
+/obj/item/projectile/bullet/a556n
+	damage = 20
+	armour_penetration = 8
+
+

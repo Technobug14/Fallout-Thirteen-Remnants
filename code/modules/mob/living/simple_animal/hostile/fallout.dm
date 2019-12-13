@@ -9,6 +9,7 @@
 	mob_biotypes = list(MOB_ORGANIC, MOB_HUMANOID)
 	speak_chance = 28
 	turns_per_move = 5
+	environment_smash = null
 	response_help = "pokes"
 	response_disarm = "shoves"
 	response_harm = "bashes"
@@ -25,7 +26,7 @@
 	loot = list(/obj/item/gun/ballistic/automatic/marksman/servicerifle)
 	atmos_requirements = list("min_oxy" = 5, "max_oxy" = 0, "min_tox" = 0, "max_tox" = 1, "min_co2" = 0, "max_co2" = 5, "min_n2" = 0, "max_n2" = 0)
 	unsuitable_atmos_damage = 15
-	faction = list("NCR")
+	faction = list("NCR", "Wastelander")
 	check_friendly_fire = 1
 	status_flags = CANPUSH
 	del_on_death = 0
@@ -45,7 +46,7 @@
 	retreat_distance = 4
 	minimum_distance = 6
 	projectilesound = 'sound/f13weapons/varmint_rifle.ogg'
-	casingtype = /obj/item/ammo_casing/a556
+	casingtype = /obj/item/ammo_casing/a556n
 
 /mob/living/simple_animal/hostile/ncrnpc/ranged/heavytrooper
 	name = "NCR Heavy Trooper"
@@ -54,5 +55,5 @@
 	maxHealth = 170
 	health = 170
 	extra_projectiles = 2
-	casingtype = /obj/item/ammo_casing/c9mmr
+	casingtype = /obj/item/ammo_casing/a556n
 	loot = list(/obj/item/gun/ballistic/automatic/marksman/servicerifle)
