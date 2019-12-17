@@ -364,7 +364,7 @@ Veteran Ranger
 	description = "You answer directly to the Captain, working either independently or in a team to complete your mission objectives however required, operating either alone, in a squad or with the NCR Army. As a Veteran Ranger you work closely with the Captain in planning special operations with your team while also carrying out those orders in the field by any means necessary."
 	supervisors = "Lieutenants and above"
 	selection_color = "#ffeeaa"
-	exp_requirements = 1500
+	exp_requirements = 0
 	exp_type = EXP_TYPE_RANGER
 
 	outfit = /datum/outfit/job/ncr/f13vetranger
