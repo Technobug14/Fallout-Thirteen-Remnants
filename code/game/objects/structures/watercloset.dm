@@ -10,6 +10,9 @@
 	var/w_items = 0			//the combined w_class of all the items in the cistern
 	var/mob/living/swirlie = null	//the mob being given a swirlie
 
+/obj/structure/toilet/broken
+	name = "broken toilet"
+	icon_state = "brokentoilet"
 
 /obj/structure/toilet/Initialize()
 	. = ..()
@@ -130,6 +133,10 @@
 	anchored = TRUE
 	var/exposed = 0 // can you currently put an item inside
 	var/obj/item/hiddenitem = null // what's in the urinal
+
+/obj/structure/urinal/broken
+	name = "broken urinal"
+	icon_state = "brokenurinal"
 
 /obj/structure/urinal/New()
 	..()
