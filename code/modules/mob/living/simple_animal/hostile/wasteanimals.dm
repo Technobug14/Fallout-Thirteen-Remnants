@@ -34,6 +34,18 @@
 	movement_type = FLYING
 	gold_core_spawnable = HOSTILE_SPAWN
 
+/mob/living/simple_animal/hostile/cazador/tunneller
+	name = "tunneller"
+	desc = "It appears to be a reptilian-humanoid with dark, scaly skin, large bioluminescent eyes, a mouth filled with sharp reptilian teeth and chitinous spikes protruding from their shoulders and heads."
+	icon = 'icons/mob/wastemobs.dmi'
+	icon_state = "tunneller"
+	icon_living = "tunneller"
+	icon_dead = "tunneller_dead"
+	speak_emote = list("hisses")
+	attacktext = "slashes"
+	faction = list("tunneller")
+	attack_sound = 'sound/creatures/radscorpion_attack.ogg'
+
 /mob/living/simple_animal/hostile/cazador/AttackingTarget()
 	. = ..()
 	if(. && ishuman(target))
