@@ -6,7 +6,7 @@
 	response_help = "pokes"
 	response_disarm = "shoves"
 	response_harm = "bashes"
-	speak_chance = 28
+	speak_chance = 6
 	turns_per_move = 5
 	mob_biotypes = list(MOB_ORGANIC, MOB_HUMANOID)
 	atmos_requirements = list("min_oxy" = 5, "max_oxy" = 0, "min_tox" = 0, "max_tox" = 1, "min_co2" = 0, "max_co2" = 5, "min_n2" = 0, "max_n2" = 0)
