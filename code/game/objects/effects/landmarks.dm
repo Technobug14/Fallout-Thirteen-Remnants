@@ -624,19 +624,19 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/start/new_player)
 // Enclave
 
 /obj/effect/landmark/start/f13/uscommander
-	name = "US Commander"
+	name = "Enclave Captain"
 
 /obj/effect/landmark/start/f13/usmedic
-	name = "US Medic"
+	name = "Enclave Lieutenant"
 
 /obj/effect/landmark/start/f13/usprivate
-	name = "US Private"
+	name = "Enclave Sergeant"
 
 /obj/effect/landmark/start/f13/usscientist
-	name = "US Scientist"
+	name = "Enclave Scientist"
 
 /obj/effect/landmark/start/f13/usengineer
-	name = "US Engineer"
+	name = "Enclave Trooper"
 
 /obj/effect/landmark/start/f13/uscolonist
-	name = "US Colonist"
+	name = "Enclave Assistant Researcher"

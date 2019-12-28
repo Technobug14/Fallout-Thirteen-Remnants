@@ -31,6 +31,15 @@ GLOBAL_LIST_INIT(den_positions, list(
 	"Prospector"
 ))
 
+GLOBAL_LIST_INIT(enclave_positions, list(
+	"Enclave Captain",
+	"Enclave Lieutenantf",
+	"Enclave Gunnery Sergeant",
+	"Enclave Trooper",
+	"Enclave Researcher",
+	"Enclave Assistant Researcher"
+))
+
 GLOBAL_LIST_INIT(legion_positions, list(
 	"Legion Centurion",
 	"Legion Decanus",

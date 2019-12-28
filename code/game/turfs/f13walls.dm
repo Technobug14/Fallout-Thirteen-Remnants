@@ -27,3 +27,9 @@
 	desc = "A rotting hunk of wood."
 	icon = 'icons/turf/walls/f13wood_wall.dmi'
 	hardness = 25
+
+/turf/closed/wall/f13fabric
+	name = "tent wall"
+	desc = "A red burlap tent wall"
+	icon = 'icons/turf/walls/f13fabric.dmi'
+	hardness = 25

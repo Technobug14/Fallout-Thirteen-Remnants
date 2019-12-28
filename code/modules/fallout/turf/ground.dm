@@ -132,16 +132,40 @@
 /turf/open/indestructible/ground/outside/dirt/MakeSlippery(wet_setting, min_wet_time, wet_time_to_add, max_wet_time, permanent)
 	return
 
+/turf/open/indestructible/ground/outside/dirt_s
+	name = "dirt"
+	icon_state = "bottommiddle"
+	icon = 'icons/fallout/turfs/dirtsnow.dmi'
+//	step_sounds = list("human" = "dirtfootsteps")
+
+/turf/open/indestructible/ground/outside/grass_s
+	name = "grass"
+	icon_state = "bottomleft"
+	icon = 'icons/fallout/turfs/snowgrass.dmi'
+//	step_sounds = list("human" = "dirtfootsteps")
+
 /turf/open/indestructible/ground/outside/road
 	name = "\proper road"
 	icon_state = "innermiddle"
 	icon = 'icons/fallout/turfs/asphalt.dmi'
 //	step_sounds = list("human" = "erikafootsteps")
 
+/turf/open/indestructible/ground/outside/road_s
+	name = "\proper road"
+	icon_state = "innermiddle"
+	icon = 'icons/fallout/turfs/asphalt_s.dmi'
+//	step_sounds = list("human" = "erikafootsteps")
+
 /turf/open/indestructible/ground/outside/sidewalk
 	name = "\proper sidewalk"
 	icon_state = "outermiddle"
 	icon = 'icons/fallout/turfs/sidewalk.dmi'
+//	step_sounds = list("human" = "erikafootsteps")
+
+/turf/open/indestructible/ground/outside/sidewalk_s
+	name = "\proper sidewalk"
+	icon_state = "outermiddle"
+	icon = 'icons/fallout/turfs/sidewalk_s.dmi'
 //	step_sounds = list("human" = "erikafootsteps")
 
 /turf/open/indestructible/ground/outside/ruins

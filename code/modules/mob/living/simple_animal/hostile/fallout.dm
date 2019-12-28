@@ -1,5 +1,5 @@
 //npcs
-/mob/living/simple_animal/hostile/npc/
+/mob/living/simple_animal/hostile/retaliate/npc/
 	name = "Dont spawn this"
 	icon = 'icons/mob/falloutnpcs.dmi'
 	environment_smash = null
@@ -14,7 +14,7 @@
 
 //ncr
 
-/mob/living/simple_animal/hostile/npc/ncr
+/mob/living/simple_animal/hostile/retaliate/npc/ncr
 	name = "Dont spawn this"
 	desc = "A member of the New California Republic, they look disgruntled. They're carrying a Service Rifle."
 	icon_state = "ncrtrooper"
@@ -32,14 +32,14 @@
 	attack_sound = 'sound/weapons/punch1.ogg'
 	a_intent = INTENT_HARM
 	loot = null
-	faction = list("NCR", "Wastelander", "Neutral")
+	faction = list("NCR", "Wastelander", "Neutral", "brahmin", "vault")
 	check_friendly_fire = 1
 	status_flags = CANPUSH
 	del_on_death = 0
 
 // trooper
 
-/mob/living/simple_animal/hostile/npc/ncr/trooper
+/mob/living/simple_animal/hostile/retaliate/npc/ncr/trooper
 	name = "NCR Trooper"
 	icon_state = "ncrtrooper"
 	icon_living = "ncrtrooper"
@@ -53,13 +53,13 @@
 	projectilesound = 'sound/f13weapons/varmint_rifle.ogg'
 	casingtype = /obj/item/ammo_casing/a556n
 
-/mob/living/simple_animal/hostile/npc/ncr/trooper/Aggro()
+/mob/living/simple_animal/hostile/retaliate/npc/ncr/trooper/Aggro()
 	..()
 	speak = list("HOSTILES IN THE WIRE!!", "OVER HERE!!", "CONTACT!!", "TAKING FIRE!!", "GOT YOUR SIX LIEUTENANT!!", "ON YOU, LIEUTENANT!!")
 
 // heavy trooper
 
-/mob/living/simple_animal/hostile/npc/ncr/heavytrooper
+/mob/living/simple_animal/hostile/retaliate/npc/ncr/heavytrooper
 	name = "NCR Heavy Trooper"
 	desc = "A very large man sporting a set of modified T-45b power armor wielding a belt fed machine gun. The emblem embrazzened across his armor indicates he's apart of the New California Republic."
 	icon_state = "ncrheavytrooper"
@@ -75,14 +75,14 @@
 	casingtype = /obj/item/ammo_casing/a556n
 	loot = list(/obj/item/gun/ballistic/automatic/marksman/servicerifle)
 
-/mob/living/simple_animal/hostile/npc/ncr/heavytrooper/Aggro()
+/mob/living/simple_animal/hostile/retaliate/npc/ncr/heavytrooper/Aggro()
 	..()
 	summon_backup(15)
 	speak = list("ARGHHHHHHHHHHHHHH!!", "DIEEEEEEEEEEEEEE!!", "VAHVAHVAHVAHVAHVAHVAVH!!", "SURPRESSSINGGGG FIREEEEEE!!", "EATTTT SHITTTTTT!!", "EAT THISSSSSSS!!")
 
 //sergeant
 
-/mob/living/simple_animal/hostile/npc/ncr/sergeant
+/mob/living/simple_animal/hostile/retaliate/npc/ncr/sergeant
 	name = "NCR Gunnery Sergeant"
 	desc = "A very large man sporting a set of modified muscles and a combat beard, wielding a big fucking shotgun. The emblem embrazzened across his armor indicates he's apart of the New California Republic. He's smoking a cigar, you look at him and he glares at you with the force of a thousand recruits screaming in terror."
 	icon_state = "ncrgunnerysergeant"
@@ -98,13 +98,13 @@
 	casingtype = /obj/item/ammo_casing/a556n
 	loot = list(/obj/item/gun/ballistic/automatic/marksman/servicerifle)
 
-/mob/living/simple_animal/hostile/npc/ncr/sergeant/Aggro()
+/mob/living/simple_animal/hostile/retaliate/npc/ncr/sergeant/Aggro()
 	..()
 	speak = list("AHAHAHA, TIME TO EAT SHIT SKIRT BOY, ON ME MEN!!", "SEE YOU IN HELL FUCKBRAIN!!", "ON ME MEN, TIME TO KILL SHIT AND FORGET NAMES!!", "SURPRESSSINGGGG FIREEEEEE!!", "EATTTT SHITTTTTT!!", "EAT THISSSSSSS!!")
 
 // lieutenant
 
-/mob/living/simple_animal/hostile/npc/ncr/lieutenant
+/mob/living/simple_animal/hostile/retaliate/npc/ncr/lieutenant
 	name = "NCR Lieutenant"
 	desc = "A company grade officer apart of the New California Republic, he looks incredibly tired."
 	icon_state = "ncrlieutenant"
@@ -119,7 +119,7 @@
 	casingtype = /obj/item/ammo_casing/a556n
 	loot = list(/obj/item/gun/ballistic/automatic/marksman/servicerifle)
 
-/mob/living/simple_animal/hostile/npc/ncr/lieutenant/Aggro()
+/mob/living/simple_animal/hostile/retaliate/npc/ncr/lieutenant/Aggro()
 	..()
 	summon_backup(15)
 	speak = list("COVER ME!!", "RETURN FIRE!!", "ENGAGE THAT HOSTILE!!", "REGROUP AND ENGAGE MEN!!", "SEARCH AND DESTROY, TROOPERS!")
@@ -141,7 +141,7 @@
 	casingtype = /obj/item/ammo_casing/a556n
 	loot = list(/obj/item/gun/ballistic/automatic/marksman/servicerifle)
 
-/mob/living/simple_animal/hostile/npc/ncr/firstrecon
+/mob/living/simple_animal/hostile/retaliate/npc/ncr/firstrecon
 	name = "NCR First Recon"
 	desc = "A field grade officer apart of the New California Republic, if you're reading this, you're probally already dead."
 	icon_state = "ncrfirstrecon"
@@ -158,7 +158,7 @@
 
 // legion
 
-/mob/living/simple_animal/hostile/npc/legion
+/mob/living/simple_animal/hostile/retaliate/npc/legion
 	name = "Dont spawn this"
 	desc = "A member of Caesar's Legion, they look disgruntled. They're carrying a Machete."
 	icon_state = "legionmelee"
@@ -183,7 +183,7 @@
 
 //standard legionaries
 
-/mob/living/simple_animal/hostile/npc/legion/legionary
+/mob/living/simple_animal/hostile/retaliate/npc/legion/legionary
 	name = "Legionary"
 	desc = "A member of Caesar's Legion, they look disgruntled and battle hardened. They are carrying a machete."
 	icon_state = "legionmelee"
@@ -193,13 +193,13 @@
 	health = 150
 
 
-/mob/living/simple_animal/hostile/npc/legion/legionary/Aggro()
+/mob/living/simple_animal/hostile/retaliate/npc/legion/legionary/Aggro()
 	..()
 	speak = list("RETRIBUTION!!", "OVER HERE!!", "DIE, PROFILGATE!!", "DEATH TO YOU, PROFILGATE!!")
 
 //ranged standard legionaires
 
-/mob/living/simple_animal/hostile/npc/legion/legionary/ranged
+/mob/living/simple_animal/hostile/retaliate/npc/legion/legionary/ranged
 	icon_state = "legionranged"
 	icon_living = "legionranged"
 	loot = list(/obj/item/gun/ballistic/automatic/marksman/servicerifle)
@@ -214,7 +214,7 @@
 
 //veteran legionary
 
-/mob/living/simple_animal/hostile/npc/legion/legionary/veteran
+/mob/living/simple_animal/hostile/retaliate/npc/legion/legionary/veteran
 	name = "Veteran Legionary"
 	desc = "A veteran member of Caesar's Legion, their armor is blood stained and they seem constantly aware of their surroundings."
 	icon_state = "legionveteran"
@@ -231,7 +231,7 @@
 
 //explorer
 
-/mob/living/simple_animal/hostile/npc/legion/legionary/explorer
+/mob/living/simple_animal/hostile/retaliate/npc/legion/legionary/explorer
 	name = "Legionary Explorer"
 	desc = "A veteran member of Caesar's Legion, their armor is blood stained and they seem constantly aware of their surroundings."
 	icon_state = "legionexplorer"
@@ -248,7 +248,7 @@
 
 // decanus
 
-/mob/living/simple_animal/hostile/npc/legion/decanus
+/mob/living/simple_animal/hostile/retaliate/npc/legion/decanus
 	name = "Decanus"
 	desc = "A platoon level officer in Caesar's Legion. He stands with a fearsome gait and constantly gives concise and direct orders to the legionaries around him."
 	icon_state = "legiondecanus"
@@ -263,7 +263,7 @@
 	projectilesound = 'sound/f13weapons/varmint_rifle.ogg'
 	casingtype = /obj/item/ammo_casing/a556n
 
-/mob/living/simple_animal/hostile/npc/legion/decanus/Aggro()
+/mob/living/simple_animal/hostile/retaliate/npc/legion/decanus/Aggro()
 	..()
 	summon_backup(15)
 	speak = list("BROTHERS, ATTACK!!", "ENGAGE THE PROFILGATES!!", "SEND THEM TO MARS, BROTHERS!!", "ON ME BROTHERS, THE PROFILGATES WONT SEE US COMING!!", "SEARCH AND DESTROY, BROTHERS!!")
