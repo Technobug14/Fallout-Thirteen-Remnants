@@ -327,7 +327,7 @@
 
 /obj/item/gun/ballistic/automatic/l6_saw/m38
 	name = "M38 LMG"
-	desc = "A special LMG used by elite legionaries to support regular infantry."
+	desc = "A belt fed machine gun chambered in 7.62x51 NATO"
 	icon_state = "M38"
 	item_state = "M38"
 	slot_flags = 0
@@ -568,6 +568,44 @@
 	update_icon()
 	return
 
+/obj/item/gun/ballistic/automatic/assault_carbine/allamerican
+	name = "All American"
+	desc = "A unique variant of the Assault Carbine with a heavier barrel, tactical foreend, stock, and grip."
+	icon_state = "allamerican"
+	item_state = "assault_carbine"
+	slot_flags = 0
+	mag_type = /obj/item/ammo_box/magazine/m556/rifle
+	init_mag_type = /obj/item/ammo_box/magazine/m556/rifle/assault
+	fire_sound = 'sound/f13weapons/assault_carbine.ogg'
+	burst_size = 3
+	fire_delay = 2
+	burst_delay = 1.8
+	extra_damage = 25
+	spread = 7
+	extra_penetration = 5
+	w_class = WEIGHT_CLASS_BULKY
+	weapon_weight = WEAPON_HEAVY
+
+
+/obj/item/gun/ballistic/automatic/assault_carbine/compact
+	name = "compact assault carbine"
+	desc = "A variant of the Assault Carbine with a shortened barrel, lightened stock, and reinforced internals. Designed for American Paratrooper regiments before the war."
+	icon_state = "compact_carbine"
+	item_state = "assault_carbine"
+	slot_flags = 0
+	mag_type = /obj/item/ammo_box/magazine/m556/rifle
+	init_mag_type = /obj/item/ammo_box/magazine/m556/rifle/assault
+	fire_sound = 'sound/f13weapons/assault_carbine.ogg'
+	burst_size = 2
+	fire_delay = 2
+	burst_delay = 1.8
+	extra_damage = 25
+	spread = 20
+	extra_penetration = 5
+	w_class = WEIGHT_CLASS_NORMAL
+	weapon_weight = WEAPON_HEAVY
+
+
 /obj/item/gun/ballistic/automatic/assault_rifle
 	name = "assault rifle"
 	desc = "A standard R91 assault rifle, out of use around the time of the Great War."
@@ -714,7 +752,7 @@
 
 /obj/item/gun/ballistic/automatic/minigun
 	name = "M134 Minigun"
-	desc = "The M134 is a 7.62Ã—51mm, six-barrel rotary machine gun with a rate of fire between 2,000 and 6,000 rounds per minute."
+	desc = "The M134 is a 7.62x51mm, six-barrel rotary machine gun with a rate of fire between 2,000 and 6,000 rounds per minute."
 	icon_state = "arg"
 	item_state = "arg"
 	mag_type = /obj/item/ammo_box/magazine/tommygunm45
@@ -828,7 +866,7 @@
 	weapon_weight = WEAPON_HEAVY
 
 /obj/item/gun/ballistic/automatic/lmg
-	name = "R84 LMG"
+	name = "R84 Light Machine Gun"
 	desc = "A post war lmg manufactured by the NCR. Issued to heavy troopers to support regular infantry."
 	icon_state = "R84"
 	item_state = "R84"
@@ -837,7 +875,7 @@
 	fire_sound = 'sound/f13weapons/assaultrifle_fire.ogg'
 	can_suppress = FALSE
 	burst_size = 3
-	fire_delay = 2
+	fire_delay = 24
 	burst_delay = 1.8
 	slowdown = 1.0
 	w_class = WEIGHT_CLASS_BULKY
@@ -845,7 +883,7 @@
 	spread = 18
 	randomspread = 1
 	extra_damage = 20
-	
+
 /obj/item/gun/ballistic/automatic/lmg/burst_select()
 	var/mob/living/carbon/human/user = usr
 	switch(select)

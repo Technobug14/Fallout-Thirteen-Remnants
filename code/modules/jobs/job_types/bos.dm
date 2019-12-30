@@ -81,7 +81,7 @@ Paladin
 	enforces = "The Brotherhood of Steel Expects: Obeying the Chain That - Binds your direct superior. Collection and safeguarding of technology from the wasteland. Experimentation and research."
 	supervisors = "the elder"
 	selection_color = "#7f8c8d"
-	exp_requirements = 1800
+	exp_requirements = 0
 
 	outfit = /datum/outfit/job/bos/f13paladin
 
@@ -122,7 +122,7 @@ Head Scribe
 	enforces = "The Brotherhood of Steel Expects: Obeying the Chain That - Binds your direct superior. Collection and safeguarding of technology from the wasteland. Experimentation and research."
 	supervisors = "the elder"
 	selection_color = "#7f8c8d"
-	exp_requirements = 600
+	exp_requirements = 0
 	exp_type = EXP_TYPE_SCRIBE
 
 	outfit = /datum/outfit/job/bos/f13headscribe
@@ -157,7 +157,7 @@ Knight
 	enforces = "The Brotherhood of Steel Expects: Obeying the Chain That - Binds your direct superior. Collection and safeguarding of technology from the wasteland. Experimentation and research."
 	supervisors = "the Paladin"
 	selection_color = "#95a5a6"
-	exp_requirements = 900
+	exp_requirements = 0
 
 	outfit = /datum/outfit/job/bos/f13knight
 
@@ -197,7 +197,7 @@ Scribe
 	enforces = "The Brotherhood of Steel Expects: Obeying the Chain That - Binds your direct superior. Collection and safeguarding of technology from the wasteland. Experimentation and research."
 	supervisors = "the Head Scribe"
 	selection_color = "#95a5a6"
-	exp_requirements = 600
+	exp_requirements = 0
 
 	outfit = /datum/outfit/job/bos/f13scribe
 
@@ -235,7 +235,7 @@ Initiate Knight
 	enforces = "The Brotherhood of Steel Expects: Obeying the Chain That - Binds your direct superior. Collection and safeguarding of technology from the wasteland. Experimentation and research."
 	supervisors = "the knights"
 	selection_color = "#95a5a6"
-	exp_requirements = 1800
+	exp_requirements = 0
 	exp_type = EXP_TYPE_CREW
 
 	outfit = /datum/outfit/job/bos/f13initiateknight
@@ -268,7 +268,7 @@ Initiate Scribe
 	enforces = "The Brotherhood of Steel Expects: Obeying the Chain That - Binds your direct superior. Collection and safeguarding of technology from the wasteland. Experimentation and research."
 	supervisors = "the scribes"
 	selection_color = "#95a5a6"
-	exp_requirements = 1800
+	exp_requirements = 0
 	exp_type = EXP_TYPE_CREW
 
 	outfit = /datum/outfit/job/bos/f13initiatescribe

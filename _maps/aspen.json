@@ -1,0 +1,9 @@
+{
+    "map_name": "Aspen",
+    "map_path": "map_files/Aspen",
+    "map_file": "Aspen.dmm",
+    "shuttles": {
+	   	"emergency": "emergency_box",
+	    "ferry": "ferry_fancy"
+    }
+}

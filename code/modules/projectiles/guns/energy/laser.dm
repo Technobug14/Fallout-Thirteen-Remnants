@@ -141,7 +141,7 @@
 	name = "H&K L30 gatling laser"
 	desc = "Designed specifically for military use, these were in the prototype stage at the beginning of the Great War. Multiple barrels allowed longer firing before overheating."
 	icon_state = "lasergatling"
-	burst_size = 8
+	burst_size = 4
 	fire_delay = 2
 	spread = 12
 	ammo_type = list(/obj/item/ammo_casing/energy/laser/scatter)
@@ -150,7 +150,7 @@
 	weapon_weight = WEAPON_HEAVY
 
 /obj/item/gun/energy/laser/aer9
-	name = "AER9 laser rifle"
+	name = "laser rifle"
 	desc = "A sturdy and advanced military grade pre-war service laser rifle"
 	icon_state = "laser"
 	item_state = "laser-rifle9"
@@ -161,7 +161,7 @@
 	weapon_weight = WEAPON_HEAVY
 
 /obj/item/gun/energy/laser/pistol
-	name = "AEP7 laser pistol"
+	name = "laser pistol"
 	desc = "A basic energy-based laser gun that fires concentrated beams of light."
 	icon_state = "AEP7"
 	item_state = "laser-pistol"
@@ -185,7 +185,7 @@
 	name ="plasma rifle"
 	item_state = "plasma"
 	icon_state = "plasma"
-	fire_delay = 3
+	fire_delay = 1
 	desc = "A top of line miniaturized plasma caster built by REPCONN in the wake of the Z43-521P failure. It is supperior to all previous rifles to enter service in the USCC."
 	ammo_type = list(/obj/item/ammo_casing/energy/plasma)
 	cell_type = /obj/item/stock_parts/cell/ammo/mfc
@@ -196,7 +196,7 @@
 	name = "multiplas Rifle"
 	item_state = "multiplas"
 	icon_state = "multiplas"
-	fire_delay = 3
+	fire_delay = 1
 	desc = "A modified A3-20 plasma caster built by REPCONN equipped with a multicasting kit that creates multiple weaker clots."
 	ammo_type = list(/obj/item/ammo_casing/energy/plasma/scatter)
 	cell_type = /obj/item/stock_parts/cell/ammo/mfc
