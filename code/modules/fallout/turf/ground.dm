@@ -119,7 +119,67 @@
 	if(turfPlant)
 		qdel(turfPlant)
 	. =  ..()
+turf/open/indestructible/ground/outside/snow
+	name = "snow"
+	icon_state = "snow"
+	icon = 'icons/turf/snow.dmi'
+//	step_sounds = list("human" = "dirtfootsteps")
+//	allowed_plants = list(/obj/item/seeds/poppy/broc, /obj/item/seeds/xander, /obj/item/seeds/mutfruit, \
+//	/obj/item/seeds/feracactus, /obj/item/seeds/corn,/obj/item/seeds/shroom, /obj/item/seeds/agave)
+	slowdown = 1
+	flags_1 = CAN_HAVE_NATURE | ADJACENCIES_OVERLAY
+	var/dug = FALSE				//FALSE = has not yet been dug, TRUE = has already been dug
+	var/pit_sand = 1
+	var/storedindex = 0			//amount of stored items
+	var/mob/living/gravebody	//is there a body in the pit?
+	var/obj/structure/closet/crate/coffin/gravecoffin //or maybe a coffin?
+	var/pitcontents = list()
+	var/obj/dugpit/mypit
+	var/unburylevel = 0
 
+/turf/open/indestructible/ground/outside/snow/Initialize()
+	. = ..()
+	if(!((locate(/obj/structure) in src) || (locate(/obj/machinery) in src)))
+		plantGrass()
+	if(icon_state != "snow")
+		icon_state = "snow[rand(1,31)]"
+
+/turf/open/indestructible/ground/outside/snow/proc/plantGrass(Plantforce = FALSE)
+	var/Weight = 0
+	var/randPlant = null
+
+	//spontaneously spawn grass
+	if(Plantforce || prob(GRASS_SPONTANEOUS_GROUND))
+		randPlant = pickweight(LUSH_PLANT_SPAWN_LIST_GROUND) //Create a new grass object at this location, and assign var
+		turfPlant = new randPlant(src)
+		. = TRUE //in case we ever need this to return if we spawned
+		return .
+
+	//loop through neighbouring desert turfs, if they have grass, then increase weight
+	for(var/turf/open/indestructible/ground/outside/snow/T in RANGE_TURFS(3, src))
+		if(T.turfPlant)
+			Weight += GRASS_WEIGHT
+
+	//use weight to try to spawn grass
+	if(prob(Weight))
+
+		//If surrounded on 5+ sides, pick from lush
+		if(Weight == (5 * GRASS_WEIGHT))
+			randPlant = pickweight(LUSH_PLANT_SPAWN_LIST_GROUND)
+		else
+			randPlant = pickweight(DESOLATE_PLANT_SPAWN_LIST_GROUND)
+		turfPlant = new randPlant(src)
+		. = TRUE
+
+/turf/open/indestructible/ground/outside/snow/MakeSlippery(wet_setting, min_wet_time, wet_time_to_add, max_wet_time, permanent)
+	return
+
+//Make sure we delete the plant if we ever change turfs
+/turf/open/indestructible/ground/outside/snow/ChangeTurf()
+	if(turfPlant)
+		qdel(turfPlant)
+	. =  ..()
+	
 /turf/open/indestructible/ground/outside/dirt
 	name = "dirt"
 	icon_state = "dirtfull"
