@@ -1,0 +1,9 @@
+{
+    "map_name": "MojaveWasteland",
+    "map_path": "map_files/MojaveWasteland",
+    "map_file": "MojaveWasteland.dmm",
+    "shuttles": {
+	   	"emergency": "emergency_box",
+	    "ferry": "ferry_fancy"
+    }
+}
