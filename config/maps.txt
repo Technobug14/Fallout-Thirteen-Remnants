@@ -13,9 +13,16 @@ Format:
 	disabled (disables the map)
 endmap
 
-map boxstation
+map mojavewasteland
 	default
 endmap
 
 map pahrump
 endmap
+
+map aspen
+endmap
+
+map boxstation
+endmap
+
