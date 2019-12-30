@@ -104,8 +104,7 @@
 	pass_flags = LETPASSTHROW
 	material = SAND
 	climbable = TRUE
-	smooth = SMOOTH_TRUE
-	canSmoothWith = list(/obj/structure/barricade/sandbags, /turf/closed/wall, /turf/closed/wall/r_wall, /obj/structure/falsewall, /obj/structure/falsewall/reinforced, /turf/closed/wall/rust, /turf/closed/wall/r_wall/rust, /obj/structure/barricade/security, /obj/structure/barricade/wooden, /turf/closed/wall/r_wall/f13superstore, /turf/closed/wall/r_wall/f13composite, /turf/closed/wall/f13wood, /turf/closed/wall/r_wall/f13vault, /turf/closed/wall/r_wall/f13vaultrusted, /turf/closed/indestructible/rock, /obj/structure/mineral_door/iron, /obj/structure/mineral_door/sandstone)
+	smooth = SMOOTH_FALSE
 	var/drop_amount = 1
 
 /obj/structure/barricade/sandbags/attack_hand(mob/user)

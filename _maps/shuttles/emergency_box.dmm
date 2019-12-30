@@ -1,0 +1,74 @@
+"a" = (/turf/open/floor/plasteel/f13{icon_state = "plating"},/area/shuttle/escape)
+"b" = (/obj/structure/grille,/obj/structure/window/shuttle,/obj/structure/window/reinforced/survival_pod{icon_state = "pwindow"; dir = 1},/obj/structure/window/reinforced/survival_pod{icon_state = "pwindow"; dir = 8},/obj/structure/window/reinforced/survival_pod,/obj/structure/window/reinforced/survival_pod{icon_state = "pwindow"; dir = 4},/obj/structure/barricade/wooden/crude,/obj/structure/barricade/wooden,/turf/open/floor/plasteel/f13{icon_state = "showroomfloor"},/area/shuttle/escape)
+"c" = (/obj/structure/grille,/obj/structure/window/shuttle,/obj/structure/window/reinforced/survival_pod{icon_state = "pwindow"; dir = 1},/obj/structure/window/reinforced/survival_pod,/obj/structure/window/reinforced/survival_pod{icon_state = "pwindow"; dir = 4},/obj/structure/window/reinforced/survival_pod{icon_state = "pwindow"; dir = 8},/obj/structure/barricade/wooden/crude,/obj/structure/barricade/wooden,/turf/open/floor/plasteel/f13{icon_state = "showroomfloor"},/area/shuttle/escape)
+"d" = (/obj/machinery/computer/emergency_shuttle,/obj/structure/window/reinforced/survival_pod{icon_state = "pwindow"; dir = 1},/obj/structure/window/reinforced/survival_pod{icon_state = "pwindow"; dir = 8},/obj/structure/window/reinforced/survival_pod{icon_state = "pwindow"; dir = 4},/obj/structure/table/reinforced,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13{icon_state = "darkrusty"},/area/shuttle/escape)
+"e" = (/obj/structure/table/reinforced,/obj/effect/decal/cleanable/dirt,/obj/item/gps,/turf/open/floor/plasteel/f13{icon_state = "darkrusty"},/area/shuttle/escape)
+"f" = (/obj/structure/chair/comfy/shuttle{dir = 1},/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13{icon_state = "darkrusty"},/area/shuttle/escape)
+"g" = (/obj/structure/table/reinforced,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13{icon_state = "darkrusty"},/area/shuttle/escape)
+"h" = (/obj/machinery/light{dir = 4},/obj/structure/table/reinforced,/obj/effect/decal/cleanable/dirt,/obj/item/paper_bin/construction,/obj/item/pen,/obj/structure/camera_assembly{icon_state = "camera1"; dir = 8},/turf/open/floor/plasteel/f13{icon_state = "darkrusty"},/area/shuttle/escape)
+"i" = (/obj/machinery/door/airlock/hatch,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13{icon_state = "metalstairsbottom"},/area/shuttle/escape)
+"j" = (/obj/structure/table/wood,/obj/effect/decal/cleanable/dirt,/obj/item/reagent_containers/spray/cleaner,/obj/structure/camera_assembly{icon_state = "camera1"; dir = 8},/obj/machinery/light{dir = 4},/turf/open/floor/plasteel/f13{icon_state = "darkrusty"},/area/shuttle/escape)
+"k" = (/obj/docking_port/mobile/emergency{dwidth = 27; height = 5; name = "BoxStation emergency evac bay"; width = 50},/turf/closed/wall/r_wall/rust,/area/shuttle/escape)
+"l" = (/obj/effect/decal/cleanable/dirt,/obj/structure/camera_assembly{icon_state = "camera1"; dir = 8},/obj/machinery/light{dir = 4},/turf/open/floor/plasteel/f13{icon_state = "plating"},/area/shuttle/escape)
+"m" = (/obj/structure/table/wood/fancy,/obj/item/candle,/obj/effect/decal/cleanable/dirt,/obj/machinery/light{dir = 4},/turf/open/floor/carpet,/area/shuttle/escape)
+"n" = (/obj/structure/table/wood/fancy,/obj/machinery/chem_dispenser/drinks/beer{dir = 8},/obj/effect/decal/cleanable/dirt,/obj/machinery/light{dir = 4},/turf/open/floor/carpet,/area/shuttle/escape)
+"o" = (/turf/closed/wall/r_wall/rust,/area/shuttle/escape)
+"p" = (/obj/structure/closet,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13{icon_state = "darkrusty"},/area/shuttle/escape)
+"q" = (/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13{icon_state = "darkrusty"},/area/shuttle/escape)
+"r" = (/obj/structure/table/wood,/obj/effect/decal/cleanable/dirt,/obj/item/stack/medical/bruise_pack,/obj/item/stack/medical/gauze,/obj/item/stack/medical/ointment,/turf/open/floor/plasteel/f13{icon_state = "darkrusty"},/area/shuttle/escape)
+"s" = (/obj/machinery/door/airlock/hatch,/obj/effect/decal/cleanable/dirt,/turf/closed/wall/r_wall/rust,/area/shuttle/escape)
+"t" = (/obj/machinery/power/port_gen,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13{icon_state = "plating"},/area/shuttle/escape)
+"u" = (/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13{icon_state = "plating"},/area/shuttle/escape)
+"v" = (/obj/machinery/space_heater,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13{icon_state = "plating"},/area/shuttle/escape)
+"x" = (/obj/machinery/turretid,/turf/closed/wall/r_wall/rust,/area/shuttle/escape)
+"y" = (/obj/machinery/power/compressor,/obj/machinery/power/apc,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13{icon_state = "plating"},/area/shuttle/escape)
+"z" = (/obj/machinery/power/generator,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13{icon_state = "plating"},/area/shuttle/escape)
+"A" = (/obj/item/wallframe/extinguisher_cabinet,/turf/closed/wall/r_wall/rust,/area/shuttle/escape)
+"B" = (/obj/machinery/newscaster,/turf/closed/wall/r_wall/rust,/area/shuttle/escape)
+"C" = (/obj/structure/grille,/obj/structure/window/shuttle,/obj/structure/window/reinforced/survival_pod{icon_state = "pwindow"; dir = 1},/obj/structure/window/reinforced/survival_pod{icon_state = "pwindow"; dir = 4},/obj/structure/window/reinforced/survival_pod,/obj/structure/window/reinforced/survival_pod{icon_state = "pwindow"; dir = 8},/obj/structure/barricade/wooden/crude,/obj/structure/barricade/wooden,/turf/open/floor/plasteel/f13{icon_state = "showroomfloor"},/area/shuttle/escape)
+"D" = (/obj/structure/chair/comfy/brown,/obj/effect/decal/cleanable/dirt,/turf/open/floor/carpet,/area/shuttle/escape)
+"E" = (/obj/effect/decal/cleanable/dirt,/turf/open/floor/carpet,/area/shuttle/escape)
+"F" = (/obj/structure/table/wood/fancy,/obj/item/candle,/obj/item/reagent_containers/food/drinks/bottle/vodka,/obj/effect/decal/cleanable/dirt,/turf/open/floor/carpet,/area/shuttle/escape)
+"H" = (/obj/structure/chair/comfy/brown{dir = 1},/obj/effect/decal/cleanable/dirt,/turf/open/floor/carpet,/area/shuttle/escape)
+"I" = (/obj/structure/chair/comfy/brown,/obj/effect/decal/cleanable/dirt,/obj/structure/camera_assembly{icon_state = "camera1"; dir = 8},/turf/open/floor/carpet,/area/shuttle/escape)
+"J" = (/obj/structure/table/wood/fancy,/obj/item/candle,/obj/item/storage/fancy/cigarettes/cigars/havana,/obj/effect/decal/cleanable/dirt,/turf/open/floor/carpet,/area/shuttle/escape)
+"K" = (/obj/structure/chair/comfy/brown{color = "#66b266"; dir = 1},/obj/structure/chair/comfy/brown{dir = 1},/obj/effect/decal/cleanable/dirt,/turf/open/floor/carpet,/area/shuttle/escape)
+"L" = (/obj/machinery/door/airlock/hatch,/turf/open/floor/plasteel/f13{icon_state = "plating"},/area/shuttle/escape)
+"N" = (/obj/structure/chair/comfy/brown{dir = 4},/obj/effect/decal/cleanable/dirt,/turf/open/floor/carpet,/area/shuttle/escape)
+"O" = (/obj/structure/table/wood/fancy,/obj/item/storage/box/drinkingglasses,/obj/effect/decal/cleanable/dirt,/turf/open/floor/carpet,/area/shuttle/escape)
+"P" = (/obj/structure/table/wood/fancy,/obj/machinery/chem_dispenser/drinks{dir = 8},/obj/effect/decal/cleanable/dirt,/turf/open/floor/carpet,/area/shuttle/escape)
+"R" = (/obj/structure/table/wood/fancy,/obj/effect/decal/cleanable/dirt,/turf/open/floor/carpet,/area/shuttle/escape)
+"S" = (/obj/structure/chair/comfy/brown{dir = 8},/obj/effect/decal/cleanable/dirt,/obj/structure/camera_assembly{icon_state = "camera1"; dir = 8},/turf/open/floor/carpet,/area/shuttle/escape)
+
+(1,1,1) = {"
+abcCa
+oodoo
+CefgC
+ogqho
+ooioo
+opqjo
+opqro
+oosoo
+otuvo
+otlxo
+kyuyo
+ozuzo
+oyuyo
+ozuzo
+oAsBo
+CDEDC
+oFEmo
+CHEHC
+oDEIo
+CJEFC
+oHEKo
+oEEEo
+LEEEL
+oNEEC
+oNEOo
+oNEPC
+oNEno
+oNERC
+oNESo
+ooooo
+"}

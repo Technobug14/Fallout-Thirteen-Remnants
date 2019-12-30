@@ -46,6 +46,22 @@
 	bound_width = 192
 	bound_height = 64
 
+/obj/structure/wreck/bus/artillery
+	name = "M108 Howitzer"
+	desc = "An old pre-war indirect fire artillery piece. Fires 105mm HEDP shells. It appears to be broken currently.."
+	icon = 'icons/obj/vehicles/artillery.dmi'
+	icon_state = "artillerygun"
+	bound_width = 128
+	bound_height = 64
+
+/obj/structure/wreck/bus/dinkydino
+	name = "Dinky the Dinosaur"
+	desc = "An extremely weathered building emulating a dinosaur, there appears to be a gift shop inside. You notice the glint of a rifle scope coming from the mouth of the dino and when you look closely, you manage to barely make out a red beret on a figure standing in the mouth."
+	icon = 'icons/obj/vehicles/dinkydino.dmi'
+	icon_state = "dinkythedino"
+	bound_width = 224
+	bound_height = 160
+
 /obj/structure/wreck/bus/rusted/segmented
 	name = "wrecked bus"
 	desc = "An old pre-war vehicle, rusted and destroyed with age and weathering."

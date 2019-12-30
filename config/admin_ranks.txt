@@ -35,13 +35,13 @@
 # END_KEYWORDS
 
 #Previous ranks on archive incase someone shits the proverbial bed. (once everyone has been switched over to the new ranks you're more than welcome to blitz these to reduce bloat)
-Scribe 			= +SERVER +DEBUG +VAREDIT +SPAWN -AUTOLOGIN
-Proctor 		= +EVERYTHING *EVERYTHING
-
-Initiate		= +ADMIN
-Aspirant 		= +@ +BAN
-Knight 			= +@ +SPAWN +FUN +VAREDIT
-Paladin			= +@ +STEALTH +POSSESS +BUILD +SOUND +SERVER +DEBUG
-Sentinel		= +EVERYTHING *EVERYTHING
-Elder			= +EVERYTHING *EVERYTHING
-Host 			= +EVERYTHING *EVERYTHING
+Developer			= +SERVER +DEBUG +VAREDIT +SPAWN -AUTOLOGIN
+HeadDeveloper			= +EVERYTHING *EVERYTHING
+PersonnelManager		= +EVERYTHING *EVERYTHING
+Mentor				= +ADMIN
+TrialAdministrator		= +@ +BAN
+Administrator			= +@ +SPAWN +FUN +VAREDIT
+SeniorAdministrator		= +@ +STEALTH +POSSESS +BUILD +SOUND +SERVER +DEBUG
+HeadAdministrator		= +EVERYTHING *EVERYTHING
+Council				= +EVERYTHING *EVERYTHING
+Host 				= +EVERYTHING *EVERYTHING
