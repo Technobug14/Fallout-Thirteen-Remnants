@@ -679,6 +679,12 @@
 	armor = list("melee" = 10, "bullet" = 16, "laser" = 0, "energy" = 0, "bomb" = 16, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0)
 	allowed = list(/obj/item/gun)
 
+/obj/item/clothing/suit/f13/veteran/winter
+	name = "merc veteran coat"
+	desc = "A blue leather coat along with a few war medals.<br>That type of outfit is common for professional mercenaries and bounty hunters."
+	icon_state = "veteran_w"
+	item_state = "suit-command"
+
 /obj/item/clothing/suit/f13/duster
 	name = "duster"
 	desc = "Long brown leather overcoat.<br>Powerful accessory of a respectful sherif or fearsome bounty hunter."
@@ -707,6 +713,12 @@
 	armor = list("melee" = 10, "bullet" = 16, "laser" = 0, "energy" = 0, "bomb" = 16, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0)
 	allowed = list(/obj/item/gun)
 
+/obj/item/clothing/suit/f13/scribe/winter
+	name = "Brotherhood Scribe's robe"
+	desc = "A blue cloth robe worn by the Brotherhood of Steel Scribes."
+	icon_state = "scribe_w"
+	item_state = "scribe_w"
+
 /obj/item/clothing/suit/f13/elder //Robes are made of finest cloth, so you won't be able to put sharp objects but pens in.
 	name = "Brotherhood Elder's robe"
 	desc = "A blue cloth robe with some scarlet red parts, traditionally worn by the Brotherhood of Steel Elder."
@@ -715,6 +727,12 @@
 	body_parts_covered = CHEST|ARMS|LEGS
 	armor = list("melee" = 15, "bullet" = 16, "laser" = 0, "energy" = 0, "bomb" = 16, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0)
 	allowed = list(/obj/item/gun)
+
+/obj/item/clothing/suit/f13/elder/winter //Robes are made of finest cloth, so you won't be able to put sharp objects but pens in.
+	name = "Brotherhood Elder's robe"
+	desc = "A black cloth robe with some blue parts, traditionally worn by the Brotherhood of Steel Elder."
+	icon_state = "elder_w"
+	item_state = "elder_w"
 
 /obj/item/clothing/suit/ghost_sheet
 	name = "ghost sheet"
