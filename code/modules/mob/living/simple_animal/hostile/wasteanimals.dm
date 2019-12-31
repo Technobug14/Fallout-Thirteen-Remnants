@@ -20,8 +20,8 @@
 	robust_searching = 1
 	taunt_chance = 30
 	speed = 0
-	maxHealth = 40
-	health = 40
+	maxHealth = 80
+	health = 80
 	harm_intent_damage = 8
 	obj_damage = 20
 	melee_damage_lower = 20
@@ -33,6 +33,19 @@
 	faction = list("cazador")
 	movement_type = FLYING
 	gold_core_spawnable = HOSTILE_SPAWN
+
+/mob/living/simple_animal/hostile/cazador/mother
+	name = "mother cazador"
+	desc = "A mutated insect known for its fast speed, deadly sting, and being huge bastards. This one happens to be a partiuclarly bigger and badder bastard."
+	icon = 'icons/mob/wastemobs.dmi'
+	icon_state = "cazador"
+	icon_living = "cazador"
+	icon_dead = "cazador_dead1"
+	resize = 2
+	health = 150
+	maxHealth = 150
+	melee_damage_lower = 30
+	melee_damage_upper = 40
 
 /mob/living/simple_animal/hostile/cazador/tunneller
 	name = "tunneller"
