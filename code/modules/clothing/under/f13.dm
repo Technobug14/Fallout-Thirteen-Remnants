@@ -42,21 +42,22 @@
 
 /obj/item/clothing/under/f13/ncr/winter
 	name = "NCR winter fatigues"
-	desc = "A set of standard issue New California Republic trooper fatigues."
+	desc = "A set of standard issue New California Republic trooper fatigues, this one appears to have a layer of insulation."
 	icon_state = "ncr_uniform_w"
 	item_state = "ncr_uniform_w"
 	item_color = "ncr_uniform_w"
 
 /obj/item/clothing/under/f13/ncr/officer
 	name = "NCR desert officer fatigues"
-	desc = "A set of NCR officer fatigues"
+	desc = "A set of NCR officer fatigues."
 
 /obj/item/clothing/under/f13/ncr/officer/winter
 	name = "NCR winter officer fatigues"
-	desc = "A set of NCR officer fatigues"
+	desc = "A set of NCR officer fatigues, this one appears to have a layer of insulation."
 	icon_state = "ncr_uniform_w"
 	item_state = "ncr_uniform_w"
 	item_color = "ncr_uniform_w"
+
 /obj/item/clothing/under/f13/caravaneer
 	name = "caravaneer outfit"
 	desc = "A soft outfit used by NCR caravaneers."
@@ -65,15 +66,15 @@
 	item_color = "caravaneer"
 
 /obj/item/clothing/under/f13/ncr/scout
-	name = "NCR scouting fatigues"
-	desc = "A standard duty uniform for members of the 3rd Scout Battalion."
+	name = "NCR scout fatigues"
+	desc = "A standard duty uniform for scouts in the New California Republic Army."
 	icon_state = "scoutclothes"
 	item_state = "scoutclothes"
 	item_color = "scoutclothes"
 
 /obj/item/clothing/under/f13/ncr/scout/winter
-	name = "NCR scouting fatigues"
-	desc = "A standard winter uniform for members of the 3rd Scout Battalion."
+	name = "winterized NCR scout fatigues"
+	desc = "A standard winter uniform for scouts in the New California Republic Army."
 	icon_state = "scoutclothes_w"
 	item_state = "scoutclothes_w"
 	item_color = "scoutclothes_w"
