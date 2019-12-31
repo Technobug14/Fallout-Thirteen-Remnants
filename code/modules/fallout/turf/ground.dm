@@ -179,7 +179,7 @@ turf/open/indestructible/ground/outside/snow
 	if(turfPlant)
 		qdel(turfPlant)
 	. =  ..()
-	
+  
 /turf/open/indestructible/ground/outside/dirt
 	name = "dirt"
 	icon_state = "dirtfull"
