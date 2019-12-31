@@ -654,6 +654,12 @@
 	armor = list("melee" = 40, "bullet" = 35, "laser" = 20, "energy" = 20, "bomb" = 25, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0)
 	strip_delay = 60
 
+/obj/item/clothing/suit/armor/f13/ncrarmor/winter
+	name = "NCR patrol vest"
+	desc = "A standard issue NCR Infantry vest."
+	icon_state = "ncr_infantry_vest_w"
+	item_state = "ncr_infantry_vest_w"
+
 /obj/item/clothing/suit/armor/f13/ncrarmor/mantle
 	name = "NCR mantle vest"
 	desc = "A standard issue NCR Infantry vest with a mantle on the shoulder."
@@ -661,12 +667,24 @@
 	item_state = "ncr_standard_mantle"
 	armor = list("melee" = 50, "bullet" = 40, "laser" = 30, "energy" = 20, "bomb" = 25, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0)
 
+/obj/item/clothing/suit/armor/f13/ncrarmor/mantle/winter
+	name = "NCR mantle vest"
+	desc = "A standard issue NCR Infantry vest with a mantle on the shoulder."
+	icon_state = "ncr_standard_mantle_w"
+	item_state = "ncr_standard_mantle_w"
+
 /obj/item/clothing/suit/armor/f13/ncrarmor/reinforced
 	name = "NCR reinforced patrol vest"
 	desc = "A standard issue NCR Infantry vest reinforced with a groinpad."
 	icon_state = "ncr_reinforced_vest"
 	item_state = "ncr_reinforced_vest"
 	armor = list("melee" = 50, "bullet" = 40, "laser" = 30, "energy" = 20, "bomb" = 25, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0)
+
+/obj/item/clothing/suit/armor/f13/ncrarmor/reinforced/winter
+	name = "NCR reinforced patrol vest"
+	desc = "A standard issue NCR Infantry vest reinforced with a groinpad."
+	icon_state = "ncr_reinforced_vest_w"
+	item_state = "ncr_reinforced_vest_w"
 
 /obj/item/clothing/suit/armor/f13/ncrarmor/mantle/reinforced
 	name = "NCR reinforced mantle vest"
@@ -690,12 +708,24 @@
 	item_state = "ncr_captain_armour"
 	armor = list("melee" = 60, "bullet" = 50, "laser" = 40, "energy" = 20, "bomb" = 50, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0)
 
+/obj/item/clothing/suit/armor/f13/ncrarmor/captain/witner
+	name = "NCR reinforced officer vest"
+	desc = "A heavily reinforced set of NCR mantle armour, the armor has been heavily patched and given ceramic inserts in vital areas to protect the wearer. The design indicates it belongs to a high ranking NCR officer."
+	icon_state = "ncr_captain_armour_w"
+	item_state = "ncr_captain_armour_w"
+
 /obj/item/clothing/suit/armor/f13/ncrarmor/scout
 	name = "NCR 3rd Scout combat armor"
 	desc = "A specialized variant of combat armor issued to members of the 3rd Scout Battalion."
 	icon_state = "scoutarmor"
 	item_state = "scoutarmor"
 	armor = list("melee" = 50, "bullet" = 40, "laser" = 30, "energy" = 20, "bomb" = 25, "bio" = 30, "rad" = 30, "fire" = 60, "acid" = 0)
+
+obj/item/clothing/suit/armor/f13/ncrarmor/scout/winter
+	name = "NCR 3rd Scout combat armor"
+	desc = "A specialized variant of combat armor issued to members of the 3rd Scout Battalion."
+	icon_state = "scoutarmor_w"
+	item_state = "scoutarmor_w"
 
 /obj/item/clothing/suit/armor/f13/ncrarmor/scout/veteran
 	name = "NCR 3rd Scout veteran combat armor"
@@ -708,6 +738,11 @@
 	item_state = "scout_armor_lt"
 	desc = "A specialized variant of combat armor issued to officers of the 3rd Scout Battalion."
 	armor = list("melee" = 60, "bullet" = 50, "laser" = 40, "energy" = 20, "bomb" = 25, "bio" = 30, "rad" = 30, "fire" = 60, "acid" = 0)
+
+/obj/item/clothing/suit/armor/f13/ncrarmor/scout/officer/winter
+	name = "NCR 3rd Scout officer combat armor"
+	icon_state = "scout_armor_lt_w"
+	item_state = "scout_armor_lt_w"
 
 /obj/item/clothing/suit/armor/f13/ghostechoe
 	name = "tattered peace coat"
@@ -724,6 +759,12 @@
     item_state = "headscribe"
     body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS
     armor = list("melee" = 15, "bullet" = 16, "laser" = 0, "energy" = 0, "bomb" = 16, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 0)
+
+/obj/item/clothing/suit/armor/f13/headscribe/winter
+    name = "brotherhood head scribe robe"
+    desc = "A blue cloth robe with gold trimmings, worn eclusively by the Head Scribe of a chapter."
+    icon_state = "headscribe_w"
+    item_state = "headscribe_w"
 
 /obj/item/clothing/suit/armor/f13/battlecoat
 	name = "battlecoat"

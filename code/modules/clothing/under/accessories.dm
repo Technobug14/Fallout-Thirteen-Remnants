@@ -296,6 +296,12 @@
 	icon_state = "redband"
 	item_color = "redband"
 
+/obj/item/clothing/accessory/armband/ncr/mp
+	name = "ncr MP armband"
+	desc = "An armband reading MP issued to NCR Military Police."
+	icon_state = "ncr_mp_armband"
+	item_color = "ncr_mp_armband"
+
 /obj/item/clothing/accessory/armband/white
 	name = "armband"
 	desc = "A fancy armband!"

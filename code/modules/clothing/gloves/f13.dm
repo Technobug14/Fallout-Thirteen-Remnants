@@ -55,6 +55,12 @@
 	heat_protection = HANDS
 	max_heat_protection_temperature = GLOVES_MAX_TEMP_PROTECT
 
+/obj/item/clothing/gloves/f13/ncr/winter
+	name = "NCR patrol gloves"
+	desc = "Large leather gloves commonly worn by NCR personnel."
+	icon_state = "ncr_gloves_w"
+	item_state = "ncr_gloves_w"
+
 /obj/item/clothing/gloves/f13/doom
 	name = "strange gloves"
 	desc = "These gloves look like a part of some sort of space suit, or maybe exquisite armor, but you can't tell for sure."
