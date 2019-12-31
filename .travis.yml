@@ -53,7 +53,8 @@ matrix:
           - $HOME/BYOND
           - $HOME/MariaDB
           - $HOME/.rustup
-
+before_install:
+  - chmod +x install_build_tools.sh
 install:
   - tools/travis/install_build_tools.sh
   - if [ $BUILD_TOOLS = false ] && [ $BUILD_TESTING = false ]; then mysql -u root -e 'CREATE DATABASE tg_travis;'; fi
