@@ -1,14 +1,14 @@
 <!-- Most valid html will work in here, excluding images. -->
 
-<font color="black"><h1>Welcome to Outcasts: Remnants</h1>
+<font color="black"><h1>Welcome to Fallout Thirteen: Remnants</h1>
 
 <i>
 We are currently running a modified ported /tg/ version of the original Fallout 13 beta code.
 
-We are looking for staff and developers, contact a Sentinel or a Proctor on the discord if you are interested.
+We are looking for staff and developers, see the #application channel in the discord if you are interested.
 
-Discord: https://discord.gg/mtmxD7N
+Discord: https://discord.gg/huAzeXP
 
-This server takes place before the Second Battle of Hoover Dam, in the Mojave Wasteland.
+This server takes place either before the Second Battle of Hoover Dam, in the Mojave Wasteland, or three months before the First Battle of the Hoover Dam, in Aspen, Colorado.
 </font>
 </i>
