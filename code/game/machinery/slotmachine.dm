@@ -3,6 +3,7 @@
 |	  Original code by Glloyd	|
 |	  Tgstation port by Miauw	|
 \*******************************/
+// test
 
 #define SPIN_PRICE 5
 #define SMALL_PRIZE 400
