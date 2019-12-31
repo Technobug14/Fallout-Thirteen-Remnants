@@ -36,3 +36,11 @@
 	..()
 	for(var/atom/movable/S in opacity_objects)
 		S.set_opacity(1)
+
+/obj/machinery/door/poddoor/gate/bos
+	name = "blast door"
+	desc = "A heavy duty gate that opens mechanically, it seems incredibly sturdy."
+	icon = 'icons/fallout/objects/structures/brotherhood_gate.dmi'
+	icon_state = "closed"
+	id = 333
+	bound_width = 96
