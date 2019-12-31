@@ -297,8 +297,8 @@
 	item_color = "redband"
 
 /obj/item/clothing/accessory/armband/ncr/mp
-	name = "ncr MP armband"
-	desc = "An armband reading MP issued to NCR Military Police."
+	name = "NCR MP armband"
+	desc = "A black arm band issued to military police officers in the New California Republic."
 	icon_state = "ncr_mp_armband"
 	item_color = "ncr_mp_armband"
 
