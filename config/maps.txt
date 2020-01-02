@@ -23,6 +23,6 @@ endmap
 map aspen
 endmap
 
-map boxstation
+map sunnydale
 endmap
 
