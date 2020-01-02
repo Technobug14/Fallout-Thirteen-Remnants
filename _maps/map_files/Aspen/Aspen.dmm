@@ -159,7 +159,7 @@
 "adc" = (/obj/structure/decoration/rag,/obj/structure/simple_door/wood,/turf/open/floor/f13/wood{tag = "icon-housewood2"; icon_state = "housewood2"},/area/f13/city)
 "add" = (/obj/machinery/light{dir = 8},/turf/open/floor/f13,/area/f13/city)
 "ade" = (/obj/structure/table/wood/settler,/obj/item/wirecutters/brass,/obj/item/weldingtool/experimental/brass,/obj/item/screwdriver/brass,/obj/item/kitchen/knife/combat/bone,/obj/item/bedsheet,/turf/open/floor/f13/wood{tag = "icon-housewood2"; icon_state = "housewood2"},/area/f13/city)
-"adf" = (/mob/living/simple_animal/hostile/ghoul/reaver{step_x = 22; step_y = 2},/turf/open/indestructible/ground/outside/snow,/area/f13/desert)
+"adf" = (/mob/living/simple_animal/hostile/ghoul/reaver,/turf/open/indestructible/ground/outside/snow,/area/f13/desert)
 "adg" = (/turf/open/floor/f13{icon_state = "darkdirtysolid"},/area/f13/brotherhood)
 "adh" = (/obj/machinery/light{dir = 4; light_color = "#c1caff"},/turf/open/floor/f13,/area/f13/city)
 "adi" = (/obj/effect/landmark/start/f13/wastelander,/turf/open/indestructible/ground/outside/sidewalk{tag = "icon-horizontaltopbordertop3"; icon_state = "horizontaltopbordertop3"},/area/f13/tunnel)
