@@ -693,6 +693,12 @@
 	item_state = "ncr_reinforced_mantle"
 	armor = list("melee" = 55, "bullet" = 45, "laser" = 35, "energy" = 20, "bomb" = 30, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0)
 
+/obj/item/clothing/suit/armor/f13/ncrarmor/mantle/reinforced/winter
+	name = "NCR reinforced mantle vest"
+	desc = "A standard issue NCR Infantry vest reinforced with a groinpad and a mantle."
+	icon_state = "ncr_reinforced_mantle_w"
+	item_state = "ncr_reinforced_mantle_w"
+
 /obj/item/clothing/suit/armor/f13/ncrarmor/labcoat
 	name = "NCR medical labcoat"
 	desc = "A labcoat typically issued to NCR Medical Officers. It's a standard white labcoat with the Medical Officer's name stitched into the breast and a two headed bear sewn into the shoulder."
@@ -708,7 +714,7 @@
 	item_state = "ncr_captain_armour"
 	armor = list("melee" = 60, "bullet" = 50, "laser" = 40, "energy" = 20, "bomb" = 50, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0)
 
-/obj/item/clothing/suit/armor/f13/ncrarmor/captain/witner
+/obj/item/clothing/suit/armor/f13/ncrarmor/captain/winter
 	name = "winterized NCR reinforced officer vest"
 	desc = "A heavily reinforced set of NCR mantle armour, the armor has been heavily patched and given ceramic inserts in vital areas to protect the wearer. The design indicates it belongs to a high ranking NCR officer, this one appears to have additional insuluation to accommodate operations in winter environments."
 	icon_state = "ncr_captain_armour_w"
