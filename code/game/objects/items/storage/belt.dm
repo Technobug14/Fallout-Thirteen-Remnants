@@ -337,6 +337,13 @@
 	icon_state = "ncr_belt"
 	item_state = "ncr_belt"
 
+/obj/item/storage/belt/military/assault/ncr/winter
+	name = "NCR patrol belt"
+	desc = "A standard issue robust duty belt for the NCR."
+	icon_state = "ncr_belt_w"
+	item_state = "ncr_belt_w"
+
+
 /obj/item/storage/belt/military/reconbandolier
 	name = "NCR recon ranger bandolier"
 	desc = "A belt with many pockets, now at an angle."
@@ -355,6 +362,17 @@
 	item_state = "ncr_bandolier"
 
 /obj/item/storage/belt/military/NCR_Bandolier/ComponentInitialize()
+	. = ..()
+	GET_COMPONENT(STR, /datum/component/storage)
+	STR.max_items = 7
+
+/obj/item/storage/belt/military/NCR_Bandolier_winter
+	name = "NCR bandolier"
+	desc = "A standard issue NCR bandolier."
+	icon_state = "ncr_bandolier_w"
+	item_state = "ncr_bandolier_w"
+
+/obj/item/storage/belt/military/NCR_Bandolier_winter/ComponentInitialize()
 	. = ..()
 	GET_COMPONENT(STR, /datum/component/storage)
 	STR.max_items = 7
