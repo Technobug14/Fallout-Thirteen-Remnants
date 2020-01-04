@@ -39,24 +39,17 @@ Commander
 	belt        = /obj/item/storage/belt/military
 	glasses 	= /obj/item/clothing/glasses/sunglasses
 	suit_store  = /obj/item/gun/energy/laser/plasma/scatter
-	shoes       = /obj/item/clothing/shoes/combat
-	gloves      = /obj/item/clothing/gloves/combat
+	shoes       = /obj/item/clothing/shoes/f13/military
+	gloves      = /obj/item/clothing/gloves/fingerless
 	backpack_contents = list(
 		/obj/item/ammo_box/magazine/m45=2, \
 		/obj/item/stock_parts/cell/ammo/mfc=3, \
-		/obj/item/kitchen/knife/combat=1, \
+		/obj/item/kitchen/knife/combat/survival=1, \
 		/obj/item/gun/ballistic/automatic/pistol/m1911=1, \
 		/obj/item/melee/classic_baton/telescopic=1)
 	box = null
 
-/datum/outfit/job/enclave/
-	name = "Enclavedatums"
-	jobtype = /datum/job/enclave/
-	backpack = /obj/item/storage/backpack/explorer
-	satchel = /obj/item/storage/backpack/satchel/explorer
-	ears = 			/obj/item/radio/headset/headset_enclave
-	shoes = 		/obj/item/clothing/shoes/combat
-	gloves =        /obj/item/clothing/gloves/combat
+
 
 /*
 Medic
@@ -87,12 +80,12 @@ Medic
 	belt        = /obj/item/storage/belt/military
 	glasses 	= /obj/item/clothing/glasses/sunglasses
 	suit_store  = /obj/item/gun/ballistic/automatic/marksman
-	shoes       = /obj/item/clothing/shoes/combat
-	gloves      = /obj/item/clothing/gloves/combat
+	shoes       = /obj/item/clothing/shoes/f13/military
+	gloves      = /obj/item/clothing/gloves/fingerless
 	backpack_contents = list(
 		/obj/item/ammo_box/magazine/m45=2, \
-		/obj/item/ammo_box/magazine/m556/rifle=3, \
-		/obj/item/kitchen/knife/combat=1, \
+		/obj/item/stock_parts/cell/ammo/mfc=3, \
+		/obj/item/kitchen/knife/combat/survival=1, \
 		/obj/item/gun/ballistic/automatic/pistol/m1911=1, \
 		/obj/item/melee/classic_baton/telescopic=1)
 	box = null
@@ -131,9 +124,9 @@ Private
 	backpack_contents = list(
 		/obj/item/ammo_box/magazine/m45=2, \
 		/obj/item/stock_parts/cell/ammo/mfc=3, \
-		/obj/item/kitchen/knife/combat=1, \
+		/obj/item/kitchen/knife/combat/survival=1, \
 		/obj/item/gun/ballistic/automatic/pistol/m1911=1, \
-	)
+		/obj/item/melee/classic_baton/telescopic=1)
 	box = null
 
 
@@ -171,8 +164,9 @@ Scientist
 	backpack_contents = list(
 		/obj/item/ammo_box/magazine/m45=2, \
 		/obj/item/stock_parts/cell/ammo/mfc=3, \
-		/obj/item/kitchen/knife/combat=1, \
-		/obj/item/gun/ballistic/automatic/pistol/m1911=1)
+		/obj/item/kitchen/knife/combat/survival=1, \
+		/obj/item/gun/ballistic/automatic/pistol/m1911=1, \
+		/obj/item/melee/classic_baton/telescopic=1)
 	box = null
 
 
@@ -210,8 +204,9 @@ Engineer
 	backpack_contents = list(
 		/obj/item/ammo_box/magazine/m45=2, \
 		/obj/item/stock_parts/cell/ammo/mfc=3, \
-		/obj/item/kitchen/knife/combat=1, \
-		/obj/item/gun/ballistic/automatic/pistol/m1911=1)
+		/obj/item/kitchen/knife/combat/survival=1, \
+		/obj/item/gun/ballistic/automatic/pistol/m1911=1, \
+		/obj/item/melee/classic_baton/telescopic=1)
 	box = null
 
 /*
